@@ -1,0 +1,13 @@
+@baseurl = http://localhost:5095
+
+# Products - Get with Offset Pagination;
+
+GET {{baseurl}}/api/products?pageNumber=1&pageSize=5
+
+###
+
+# Orders - Get with Offset Pagination;
+
+GET {{baseurl}}/api/orders?pageNumber=1&pageSize=5
+
+###
